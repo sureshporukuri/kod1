@@ -22,8 +22,8 @@ To get started with this project, follow the steps below:
 
 2.Install the required Python libraries:
 
- ```shell
-pip install pandas
+   ```shell
+   pip install pandas
 
 Set up your SQL database and create a new database for this project.
 
