@@ -22,8 +22,9 @@ To get started with this project, follow the steps below:
 
 2.Install the required Python libraries:
 
-shell
-**pip install pandas**
+ ```shell
+pip install pandas
+
 Set up your SQL database and create a new database for this project.
 
 Usage
@@ -34,13 +35,13 @@ Updated the database connection details in the extract.py script.
 Run the script using the following command:
 
 
-shell
+ ```shell
 python netflix_data_extract.py
 This will read the netflix_titles.csv file and load the data into the specified SQL database.
 
-Perform analysis on the data:
+2. Perform analysis on the data:
 
-Open the analysis.sql script and update the database connection details if necessary.
+Open the netflix_data_analysis.sql script and update the database connection details if necessary.
 Run the script against the database to perform the desired analysis.
 
 *Contributing*
